@@ -1,0 +1,10 @@
+CREATE TABLE login (
+nome VARCHAR (500),
+login VARCHAR(20),
+senha VARCHAR(20),
+PRIMARY KEY (login)
+);
+
+INSERT INTO login (nome, login, senha)
+VALUES 
+	('Admin','admin','admin');
