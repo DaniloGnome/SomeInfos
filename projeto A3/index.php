@@ -12,9 +12,12 @@ session_start();
 </head>
 <body>
     <center>
-        <h1>Olá <?php echo $_SESSION['nome_usuario']; ?> seja bem vindo.</h1>
-        <a href="cadastro.php">Cadastrar</a><br>
-        <a href="sair.php">Sair</a>
+        <h1>Olá <?php echo $_SESSION['nome_usuario']; ?> seja bem vindo(a).</h1>
+        <a href="cadastro.php">Cadastrar novo usuario</a><br>
+        <a href="mudarsenha.php">Alterar senha</a><br>
+        <a href="registro.php">Listas de usuarios</a><br>
+        <a href="sair.php">Sair</a><br>
+        
     </center>
 </body>
-</html>
+</html> 
